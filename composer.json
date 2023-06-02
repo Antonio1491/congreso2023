@@ -1,0 +1,20 @@
+{
+    "name": "iscgo/congreso2023",
+    "description": "Congreso parques 2023",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iscgo\\Congreso2023\\": "app/",
+            "MVC\\": "./",
+            "Model\\": "./app/models",
+            "Controllers\\": "./app/controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Góngora",
+            "email": "antonio.gongora1491@gmail.com"
+        }
+    ],
+    "require": {}
+}

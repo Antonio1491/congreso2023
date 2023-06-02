@@ -1,0 +1,241 @@
+main {
+  font-family: "Arial Light";
+  color: #4b4646;
+}
+
+.bgPrincipal,
+.bgSecundario,
+.bgCielo {
+  color: #ffffff;
+}
+.bgPrincipal .listaVinetas span,
+.bgSecundario .listaVinetas span,
+.bgCielo .listaVinetas span {
+  color: #ffffff;
+}
+
+.bgPrincipal {
+  background-color: #00b936;
+}
+
+.bgSecundario {
+  background-color: #004a80;
+  color: #ffffff;
+}
+
+.bgCielo {
+  background-color: #cae1f3;
+}
+
+.seccion {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("fonts/arial.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arial Bold";
+  src: url("fonts/arialbold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arial Black";
+  src: url("fonts/arialblack.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arial Light";
+  src: url("fonts/arialligth.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arial Medium";
+  src: url("fonts/ArialMdm.ttf");
+  font-display: swap;
+}
+.tituloPV {
+  font-family: "Arial Black";
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: #00b936;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tituloPB {
+  font-family: "Arial Black";
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tituloPA {
+  font-family: "Arial Black";
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: #004a80;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.subtitulo {
+  color: #004a80;
+  text-transform: initial;
+  font-family: "Arial Black";
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.subtituloV {
+  color: #00b936;
+  text-transform: initial;
+  font-family: "Arial Black";
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.contenidoFondo {
+  background-color: #004a80;
+  color: #ffffff;
+  display: block;
+  font-family: "Arial Medium";
+  letter-spacing: 1px;
+  padding-left: 4px;
+}
+
+ul.listaVinetas li,
+ol.listaVinetas li {
+  color: #00b936;
+}
+ul.listaVinetas li span,
+ol.listaVinetas li span {
+  color: #4b4646;
+}
+
+.fotos_ciudades {
+  display: flex;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.img_ciudades {
+  height: 200px;
+}
+
+.img-medium {
+  height: 150px;
+}
+
+.filtro {
+  filter: brightness(50%) saturate(105%);
+  -webkit-filter: brightness(50%) saturate(105%);
+  -moz-filter: brightness(50%) saturate(105%);
+}
+
+.text-color-azul {
+  color: #004a80;
+}
+
+.btn {
+  font-size: 16px;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Arial Bold";
+  letter-spacing: 1.5px;
+  border: none;
+  text-decoration: none;
+  font-family: "Arial Bold";
+  display: inline-block;
+  cursor: pointer;
+}
+.btn:active {
+  top: 2px;
+}
+
+.contenedor_boton {
+  padding: 2rem 0;
+}
+
+.btn__principal {
+  padding: 15px 30px;
+  border: 2px #00b936 solid;
+  color: #00b936;
+  background: transparent;
+  /* border-radius: 30px; */
+  transition: all 0.5s ease;
+  position: relative;
+  font-family: "Arial Black";
+  background-size: 150% auto;
+}
+@media screen and (max-width: 1280px) {
+  .btn__principal {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}
+.btn__principal:hover {
+  background: #00b936;
+  color: #fff;
+}
+
+input.btn_2 {
+  border-radius: 0;
+  border: 1px #00b936 solid;
+}
+input.btn_2:hover {
+  border: 1px #00b936 solid;
+}
+
+.btn_2 {
+  padding: 10px;
+  background: #00b936;
+  color: white;
+  font-family: "Arial Black";
+  border-radius: 0;
+}
+.btn_2:hover {
+  background: transparent;
+  border: 1px #00b936 solid;
+  color: #00b936;
+  transition: 0.5s all ease;
+}
+
+.btn__secundario {
+  background-color: #004a80;
+  color: #ffffff;
+}
+
+.btn_registro {
+  background-color: #d2dd0a;
+  color: #004a80 !important;
+  border-radius: 30px;
+  transition: ease 0.3s;
+  animation-name: boton_registro;
+  animation-duration: 0.3s;
+}
+.btn_registro:hover {
+  background-color: #004a80;
+  color: #d2dd0a !important;
+}
+
+@keyframes boton_registro {
+  from {
+    margin-top: 20px;
+  }
+  to {
+    margin-bottom: 20px;
+  }
+}
+.registro_cpanel {
+  display: none;
+}/*# sourceMappingURL=app.css.map */
